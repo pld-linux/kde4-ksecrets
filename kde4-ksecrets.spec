@@ -6,7 +6,7 @@
 Summary:	K Desktop Environment - secrets management infrastructure
 Name:		kde4-ksecrets
 Version:	4.8.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
@@ -66,7 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/libksecretsservice.so.*.*
 %attr(755,root,root) %ghost %{_libdir}/libksecretsservice.so.?
 %{_desktopdir}/kde4/ksecrets.desktop
-%{_datadir}/apps/ksecretsync/ksecretsync.rc
+%{_datadir}/apps/ksecretsync
 %{_datadir}/config.kcfg/kcm_ksecretsync.kcfg
 %{_datadir}/dbus-1/services/org.kde.ksecretsserviced.service
 %{_datadir}/kde4/services/kcm_ksecretsync.desktop
