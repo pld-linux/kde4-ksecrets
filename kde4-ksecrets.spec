@@ -1,4 +1,7 @@
 #
+# ksecrets removed from kde-4.9 (due to early development state)
+# http://mail.kde.org/pipermail/release-team/2012-May/005668.html
+#
 %define		_state		stable
 %define		orgname		ksecrets
 %define		qtver		4.8.0
